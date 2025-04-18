@@ -1,18 +1,21 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: #eaf3fc;
+    background: #e2fffe;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
   
+
+
+  
   .container {
     text-align: center;
   }
   
   h1 {
-    color: #1a4a80;
+    color: #43b2ae;
     margin-bottom: 20px;
   }
   
@@ -36,7 +39,7 @@ body {
   
   button {
     padding: 10px 20px;
-    background-color: #1a4a80;
+    background-color: #43b2ae;
     color: white;
     border: none;
     border-radius: 6px;

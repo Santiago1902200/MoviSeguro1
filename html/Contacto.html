@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoviSeguro - Contacto</title>
+  <link rel="stylesheet" href="../styles-index.css">
+  <link rel="stylesheet" href="../css/stylemoviles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+          <h1 class="logo"><a href="../pagina-principal.html">MoviSeguro</a></h1>
+          <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+        </div>
+        <nav id="nav-menu" class="hidden">
+          <ul>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#ayuda">Ayúdanos</a></li>
+            <li><a href="#reporte">Reportar</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+  <main>
+    <section>
+      <h1>Contáctanos</h1>
+      <p>Estamos aquí para ayudarte. Usa los siguientes medios para comunicarte con nosotros o dejarnos tus comentarios.</p>
+    </section>
+  
+    <section>
+      <h2>Información de contacto</h2>
+      <p><strong>Teléfono:</strong> <a href="tel:+1234567890">+1 234 567 890</a></p>
+      <p><strong>Correo:</strong> <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a></p>
+    </section>
+  
+    <section>
+      <h2>Ayúdanos a mejorar</h2>
+      <form action="/feedback" method="post">
+        <label for="feedback">¿Tienes sugerencias o comentarios?</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+        <button type="submit">Enviar sugerencia</button>
+      </form>
+    </section>
+  
+    <section>
+      <h2>Reportar un caso</h2>
+      <form action="/reporte" method="post">
+        <label for="reporte">Describe el problema o caso:</label><br>
+        <textarea id="reporte" name="reporte" rows="4" cols="50" required></textarea><br><br>
+        <button type="submit">Reportar</button>
+      </form>
+    </section>
+  </main>
+  
+
+
+  <footer>
+    <p>&copy; 2025 MovieSeguro. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script-index.js"></script>
+  <script src="../js/menuHamburguesa.js"></script>
+</body>
+</html>
